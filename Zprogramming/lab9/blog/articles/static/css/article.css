@@ -1,0 +1,167 @@
+body
+ {
+background: #1abc9c;
+font-family: Tahoma, Arial, sans-serif;
+color: #ffffff;
+}
+
+div {
+    display: block;
+}
+.archive {
+ width: 960px;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    background-color: #d9f8f9
+}
+
+img#logo {
+    top: 0;
+    position: relative;
+}
+.fold-button{
+	color: #0f3bbf;
+}
+
+
+.article {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-info div {
+    display: inline;
+}
+
+
+.article-created-date {
+    float: right;
+    text-align: right;
+}
+.post-title
+{
+	
+font-family: "Times New Roman", Times, serif;
+	
+}
+
+.center_pos {
+    text-align: center;
+}
+
+.article-text {
+    text-align: justify;
+}
+
+.one-post {
+    position: relative;
+	
+}
+
+
+.post-title {
+    font-size: 20pt;
+	color: #0f3bbf;
+}
+
+.one-post.folded .article-author {
+    display: none;
+}
+
+.one-post.folded .article-created-date {
+    display: none;
+}
+
+.one-post.folded .article-text {
+    display: none;
+}
+
+.one-post-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: #28beff;*/
+    background: black;
+    opacity: 0;
+    z-index: -1; /* это свойство «отодвигает» элемент на задний план */
+}
+
+
+.head-title {
+    float: right;
+    width: 50%;
+    height: 200px;
+	color: #2E8B57;
+}
+
+
+.service_title {
+    font-size: 30pt;
+}
+
+.create_link {
+    float: right;
+    font-size: 18pt;
+    margin-left: 5%;
+    width: 30%;
+}
+
+.reg_link {
+    float: right;
+    font-size: 18pt;
+    width: 30%;
+}
+
+.login_link {
+    float: right;
+    font-size: 18pt;
+    width: 30%;
+}
+
+.allposts_link {
+    font-size: 14pt;
+    float: right;   
+	    width: 100%;
+}
+
+.parallax_group {
+    float: left;
+    width: 50%;
+    top: -250px;
+    position: relative;
+}
+
+.parallax_group img {
+    position: absolute;
+    top: 0;
+}
+
+.first_img {
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 100px;
+    z-index: 3;
+}
+
+.second_img {
+    width: 70px; /* уменьшить ширину для картинки, чтобы визуально */
+    margin-top: 62px; /*эта картинка слегка смещена вправо и вниз*/
+    margin-left: 100px; /* за счет левой и верхней границ */
+    z-index: 2;
+}
+
+.third_img {
+    width: 60px;
+    margin-top: 35px;
+    margin-left: 140px;
+    z-index: 1; /* эта картинка на заднем плане, у неё меньший z-index */
+}
